@@ -6,6 +6,7 @@ https://youtube.com/playlist?list=PLt8GA9Tif0MCI780DuS0Yf162f6rO9wMg
 
 # Statics
 
+
 ## 3D printer kinematics
 
 Consisting of a sliding bearing on a flat surface, moved around by an arrangement of cables. The print head is mounted upon the bearing. 
@@ -65,10 +66,10 @@ Allows use of much of the hotend (or another tool) mass as part of a tuned mass 
 
 While those ideas were initially conceived in relation to the 3D printing, they are generally applicable to a broad range of robotics, including but not limited to: welding, machining, laser etching, pick-and-place, etc.
 
-## Existing patents
-
-Who knows? I'm not aware of any at the moment and I'm not actively seeking an argument over that topic.
-
 ## Novelty
 
-Who the knows? All these ideas are probably 100+ years old in some other context like steam engines. However, companies had been patenting use of 100+ year old inventions in the context of 3D printing so it's better to put things publicly in writing with a clear timestamp, just to be sure.
+Who knows? All these ideas are probably 100+ years old, but people had been patenting use of 100+ year old inventions in the context of 3D printing so it's better to put things clearly in writing with a clear timestamp.
+
+# Existing patents
+
+Who knows? I don't know one way or the other.
