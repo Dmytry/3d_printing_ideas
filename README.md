@@ -1,4 +1,4 @@
-# Various ideas published to establish prior art, mostly 3D printing related.
+# Various ideas published to establish prior art, mostly 3D printing related. No claim with regards to novelty is made; in fact the ideas are probably a century+ old in other contexts.
 
 ## Pythagoras:
 
@@ -46,15 +46,15 @@ Possible variations: an omnidirectional probe (similar to CNC probes) for probin
 
 ## Decreasing inertial forces for short duration accelerations, improving acceleration performance
 
-If an object accelerates to a given speed over a given distance L, the acceleration can be computed as $a=v^2/(2*L)$ . Notably, required acceleration is lower if the distance is greater.
+If an object accelerates to a given speed over a given distance $L$, the acceleration can be computed as $a = {{v^2}\over{2L}}$ . Notably, required acceleration is lower if the distance is greater.
 
 Typical high-acceleration 3D printing move commands consist of a short acceleration phase followed by coasting. 
 
-For example the print head may accelerate to 0.5 meters per second, over the distance of 1 mm, requiring the acceleration of $125 m/s^2$ (which is somewhat over the limit of current consumer grade 3D printing technology)
+For example the print head may accelerate to $0.5 m/s$, over the distance of $1 mm$, requiring the acceleration of $125 m/s^2$ (which is somewhat over the limit of current consumer grade 3D printing technology)
 
 Only the position of print head orifice matters for printing quality, however. Slight rotations of the nozzle around the orifice are permissible.
 
-A print head consists of a number of masses, not all of which have to accelerate over the same distance. Fans and other components can lag slightly behind the print head.
+A print head consists of a number of masses, not all of which have to accelerate over the same distance. Fans and other components (e.g. the extruder, also see Flying Extruder on Delta printers) can lag slightly behind the print head.
 
 The "lagging masses" need to be damped with regards to printhead to avoid resonant built up.
 
