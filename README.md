@@ -13,15 +13,21 @@ Consisting of a sliding bearing on a flat surface, moved around by an arrangemen
 
 The bearing block's mass can be partially decoupled from high frequency components of the motion of the printhead through the use of a flexure pivot with damping.
 
+The flat surface could have positioning information for closed loop positioning and/or calibration information. For example the surface could be glass, with the positioning information engraved on the back of the glass, read optically. Or a ferromagnetic surface could have magnetic positioning information.
+
 ## Cartesian version of the above
 
 todo
 
 ## Parallel cable robot cable tensioner (to avoid wasting motor torque on tensioning)
 
+[Video](https://www.youtube.com/watch?v=OGiijvV2sIw)
+
 A scaled down version of the cable robot (2D or 3D), with each cable replaced with a pivoting rod (performing identical movement), can be used to provide counter-tension on the ropes (the length of the rod sticking out behind the pivot is proportional to the cable length that needs to be drawn from the cable robot). Scaling can be done with block-and-tackle arrangement or coaxial winches or pulleys of different diameters, or any other scaling mechanism. Springs can be used to compensate for imprecision in the assembly.
 
 ![A pencil drawing of the above description](parallel_cable_robot_tensioner.png)
+
+Only one cable is shown; all other cables work similarly, going to the corresponding rods.
 
 ## Rotary delta with cable drive, parallel SCARA with cable drive
 
@@ -41,6 +47,19 @@ at least one cable goes to variable-diameter helical groove winch (through a spr
 ![A pencil drawing of the above description](rocking_bed_probe.png)
 
 Possible variations: an omnidirectional probe (similar to CNC probes) for probing edges of the bed.
+
+## Fully constrained tensegrity straight line mechanism (e.g. for bed or xy frame movement in a 3D printer or generally for linear movement without the use of linear rails):
+
+A print bed is supported at 3 points, which can be located in the middles of 3 edges of the bed. Each point is supported with 2 cables going to two points above or below the bed. There are total of 6 cables, providing 6-DOF rigidity (like Stewart platform).
+
+All cables are winched together at the same rate. The winches can use a helical groove to keep cable from overlapping itself. The winches could be constant or variable diameter (tapered).
+
+If gravity or springs are inadequate for counter-tension, counter-tension can be provided by one or more cables placed in opposition to the 6 positioning cables, would onto a variable-diameter pulley on the same shaft (they wind in the opposite direction). The variable diameter pulley is shaped to ensure that correct length of cable is metered out.
+Adding springs to extra cables would eliminate backlash and allow for slight imprecision in the mechanism and prevent issues due to system being over-constrained.
+
+## Other tensegrity straight line mechanisms
+
+Easy to make a straight line mechanism with variable-diameter winches. Pretty much cheating.
 
 # Dynamics
 
@@ -68,7 +87,7 @@ While those ideas were initially conceived in relation to the 3D printing, they 
 
 ## Novelty
 
-Who knows? All these ideas are probably 100+ years old, but people had been patenting use of 100+ year old inventions in the context of 3D printing so it's better to put things clearly in writing with a clear timestamp.
+Who knows? All these ideas are probably 100+ years old in some other context, but people had been patenting use of 100+ year old inventions in the context of 3D printing so it's better to put things clearly in writing with a clear timestamp.
 
 # Existing patents
 
