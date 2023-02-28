@@ -19,15 +19,27 @@ The flat surface could have positioning information for closed loop positioning 
 
 todo
 
-## Parallel cable robot cable tensioner (to avoid wasting motor torque on tensioning)
+## "Marionette" parallel cable robot cable tensioner (to avoid wasting motor torque on tensioning)
 
 [Video](https://www.youtube.com/watch?v=OGiijvV2sIw)
+
+[Motorized video](https://youtu.be/3ctT8vhLEVk)
 
 A scaled down version of the cable robot (2D or 3D), with each cable replaced with a pivoting rod (performing identical movement), can be used to provide counter-tension on the ropes (the length of the rod sticking out behind the pivot is proportional to the cable length that needs to be drawn from the cable robot). Scaling can be done with block-and-tackle arrangement or coaxial winches or pulleys of different diameters, or any other scaling mechanism. Springs can be used to compensate for imprecision in the assembly.
 
 ![A pencil drawing of the above description](parallel_cable_robot_tensioner.png)
 
 Only one cable is shown; all other cables work similarly, going to the corresponding rods.
+
+## Compact version of parallel cable robot tensioner
+
+A tapered conical winch takes up the amount of cable proportional to rotation angle squared.
+
+That allows to mechanically compute square & square root.
+
+A differential gearing or a block and tackle arrangement with 1 idler allows to compute a sum or difference. A constant can be added or subtracted by adding an offset.
+
+Thus an arrangement of conical winches, cylindrical winches, and blocks and tackles or differentials can compute $l = \sqrt{x^2+y^2}$ for each cable in a parallel cable robot, from Cartesian xy or xyz position. 
 
 ## Rotary delta with cable drive, parallel SCARA with cable drive
 
