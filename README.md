@@ -62,6 +62,8 @@ Possible variations: an omnidirectional probe (similar to CNC probes) for probin
 
 ## Fully constrained tensegrity straight line mechanism (e.g. for bed or xy frame movement in a 3D printer or generally for linear movement without the use of linear rails):
 
+[Video](https://youtu.be/cEeoZqRsgvY)
+
 A print bed is supported at 3 points, which can be located in the middles of 3 edges of the bed. Each point is supported with 2 cables going to two points above or below the bed. There are total of 6 cables, providing 6-DOF rigidity (like Stewart platform).
 
 All cables are winched together at the same rate. The winches can use a helical groove to keep cable from overlapping itself. The winches could be constant or variable diameter (tapered).
