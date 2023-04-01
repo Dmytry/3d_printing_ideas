@@ -103,6 +103,12 @@ While those ideas were initially conceived in relation to the 3D printing, they 
 
 Who knows? All these ideas are probably 100+ years old in some other context, but people had been patenting use of 100+ year old inventions in the context of 3D printing so it's better to put things clearly in writing with a clear timestamp.
 
+# Sensors
+
+Filament mass sensor that measures filament mass in a given interval by measuring resonance frequency of a resonator that includes a length of the filament. Filament is held between two rollers and vibrated at the natural resonance frequency, additional set of driven "follower" rollers eliminate effects of filament outside the measurement zone. Alternatively the resonator has sufficiently stiff springs that stiffness of the filament is relatively insignificant in comparison.
+
+Capacitive filament diameter sensor that measures filament all around by measuring change in the average dielectric constant within the measurement zone. Possible difficulties: water has very large dielectric constant. Although that can be made use of for moisture content measurements.
+
 # Existing patents
 
 Who knows? I don't know one way or the other.
