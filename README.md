@@ -109,6 +109,14 @@ Filament mass sensor that measures filament mass in a given interval by measurin
 
 Capacitive filament diameter sensor that measures filament all around by measuring change in the average dielectric constant within the measurement zone. Possible difficulties: water has very large dielectric constant. Although that can be made use of for moisture content measurements.
 
+# Hotends
+
+Making a 90 degree nozzle by bending a metal tube (instead of machining as in Positron hotends).
+
+A 90 degree attachment for any hotend, consisting of a 90 degree bent tube with the nozzle on one end and flared out other end. The tube is retained inside the heatblock using a bolt with a hole in the middle matching the tube diameter. That would allow pointing the nozzle in arbitrary direction regardless of how the threads start.
+
+A 360 or more degree bent tube in the hotend, with the idea that if the inside of the filament is colder than the outside, it would have different elastic properties and would end up pushed towards the outer wall (similarly to convection), improving heat transfer to the plastic. 
+
 # Existing patents
 
 Who knows? I don't know one way or the other.
