@@ -95,6 +95,10 @@ The "lagging masses" need to be damped with regards to printhead to avoid resona
 
 Allows use of much of the hotend (or another tool) mass as part of a tuned mass damper, allows partial decoupling from short duration accelerations.
 
+# Ping pong (impulse) based movement
+
+Instead of continuously coupling motors to print head, the motors are coupled through an impact clutch (similar to an impact driver). The motors are disconnected from print head prior to an acceleration, a speed is set up on the motors such that engaging the clutch elastically bounces the print head in the desired direction (similarly to bouncing a ball off a moving ping-pong paddle, but in the printer's kinematic space). A continuously variable transmission may also be used to rapidly set up the velocity without having to accelerate or decelerate a motor rotor.
+
 # Scope
 
 While those ideas were initially conceived in relation to the 3D printing, they are generally applicable to a broad range of robotics, including but not limited to: welding, machining, laser etching, pick-and-place, etc.
