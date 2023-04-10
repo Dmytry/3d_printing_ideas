@@ -4,6 +4,10 @@
 
 https://youtube.com/playlist?list=PLt8GA9Tif0MCI780DuS0Yf162f6rO9wMg
 
+## Marionette printer, complete:
+
+https://youtu.be/riSgp-WCRXw
+
 # Statics
 
 
