@@ -105,6 +105,10 @@ Instead of continuously coupling motors to print head, the motors are coupled th
 
 A possible simple version can use large-backlash couplings (e.g. 350 degrees worth of backlash) to allow the motor a "runway" to accelerate decoupled prior to impact.
 
+A possible implementation: 3 motors per axis, 1 motor is directly coupled to the shaft, 2 more are connected through impact couplings (implemented as a purely passive large-backlash coupling, or actively controlled). 
+
+Motor 1 drives the shaft at approximately constant speeds in the moves, without regards for its acceleration limit. The other two motors apply impacts in either direction by spinning up and having the coupling engage when the velocity needs to be abruptly changed.
+
 # Scope
 
 While those ideas were initially conceived in relation to the 3D printing, they are generally applicable to a broad range of robotics, including but not limited to: welding, machining, laser etching, pick-and-place, etc.
