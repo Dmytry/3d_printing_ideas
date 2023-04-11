@@ -127,6 +127,14 @@ A 90 degree attachment for any hotend, consisting of a 90 degree bent tube with 
 
 A 360 or more degree bent tube in the hotend, with the idea that if the inside of the filament is colder than the outside, it would have different elastic properties and would end up pushed towards the outer wall (similarly to convection), improving heat transfer to the plastic. 
 
+##Rigid support for the hotend
+
+![An illustration of an octohedral strut hotend mount. 6 edges of an octahedron are used as a structure.](hotend_mount_ring.png)
+
+The mount is used to rigidly couple the heatblock to the toolhead, heatsink, or the like.
+
+The rods are made of thin low thermal conductivity material (e.g. stainless steel, titanium, thungsten, etc). The rods could be metal screws. 6 rods provide full 6-DOF rigidity without impacting bending force upon the rods, allowing very lightweight, low thermal conductivity construction.
+
 # Existing patents
 
 Who knows? I don't know one way or the other.
