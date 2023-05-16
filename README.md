@@ -68,12 +68,14 @@ Possible variations: an omnidirectional probe (similar to CNC probes) for probin
 
 [Video](https://youtu.be/cEeoZqRsgvY)
 
-A print bed is supported at 3 points, which can be located in the middles of 3 edges of the bed. Each point is supported with 2 cables going to two points above or below the bed. There are total of 6 cables, providing 6-DOF rigidity (like Stewart platform).
+[Alternative cable arrangement](https://www.youtube.com/watch?v=tocf8PchpOw)
+
+A print bed is supported on 6 cables that are arranged such that they are not kinematically redundant, and there is 6-DOF rigidity (like Stewart platform). A possible arrangement could have cables coming from the middles of 3 sides of a rectangle to the corners of another rectangle. Alternatively the cables may cross one another. Software can be used to find the best arrangement of cables for the purpose.
 
 All cables are winched together at the same rate. The winches can use a helical groove to keep cable from overlapping itself. The winches could be constant or variable diameter (tapered).
 
 If gravity or springs are inadequate for counter-tension, counter-tension can be provided by one or more cables placed in opposition to the 6 positioning cables, would onto a variable-diameter pulley on the same shaft (they wind in the opposite direction). The variable diameter pulley is shaped to ensure that correct length of cable is metered out.
-Adding springs to extra cables would eliminate backlash and allow for slight imprecision in the mechanism and prevent issues due to system being over-constrained.
+Adding springs to extra cables eliminates backlash and allows for slight imprecision in the mechanism, avoiding issues with overconstraint.
 
 ## Other tensegrity straight line mechanisms
 
