@@ -133,7 +133,9 @@ A 90 degree attachment for any hotend, consisting of a 90 degree bent tube with 
 
 A 360 or more degree bent tube in the hotend, with the idea that if the inside of the filament is colder than the outside, it would have different elastic properties and would end up pushed towards the outer wall (similarly to convection), improving heat transfer to the plastic. 
 
-##Rigid support for the hotend
+Deforming (squishing) a tube to increase contact surface area, instead of adding any conductive material inside the tube (may or may not be a viable work-around for EP3445568A1).
+
+## Rigid support for the hotend
 
 ![An illustration of an octohedral strut hotend mount. 6 edges of an octahedron are used as a structure.](hotend_mount_ring.png)
 
